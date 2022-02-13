@@ -1,0 +1,11 @@
+p {
+    font-size: 18px;
+}
+
+.normal-text {
+    font-size: 18px;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
