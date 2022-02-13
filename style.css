@@ -1,5 +1,29 @@
-p {
-    font-size: 18px;
+body {
+    padding: 0;
+    margin: 0;
+    background: darkolivegreen;
+}
+
+.navbar {
+    background: lightseagreen;
+}
+
+.navlink,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.navlink {
+    margin-right: 1em !important;
+}
+
+.navlink:hover {
+    color: darkblue;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
 }
 
 .normal-text {
