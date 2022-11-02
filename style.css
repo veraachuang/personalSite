@@ -90,6 +90,14 @@
     .navbar-collapse {
         justify-content: flex-end;
     }
+    
+    [id]::before {
+        content: "";
+        display: block;
+        height: 60px;
+        margin-top: -60px;
+        visibility: hidden;
+    }
     /* EXPERIENCE */
     
     .experience-box {
@@ -359,28 +367,22 @@
     }
     
     .skillbar {
-        background-color: var(--green3);
-        height: 30px;
+        background-color: var(--green2);
+        height: 24px;
         border-radius: 5px;
     }
     
     .barbg {
         background-color: white;
-        height: 30px;
+        height: 24px;
         border-radius: 5px;
     }
-    /* a.anchor {
-        display: block;
-        position: relative;
-        top: -250px;
-        visibility: hidden;
-    } */
     
     #hk {
         color: var(--green4);
     }
     
-    #hk-icon {
+    .hk-icon {
         color: var(--green3);
     }
     
@@ -401,14 +403,13 @@
     
     #footer {
         background-color: white;
-        /* position: absolute; */
+        position: absolute;
         width: 100%;
-        height: 11.5rem;
+        height: 10rem;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 0px;
-        position: fixed;
+        padding: 10px;
         /* Footer height */
     }
     
